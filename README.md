@@ -1,2 +1,2 @@
-# sala_treinamento
-// Projeto de programa utilizando o "eclipse" para uma sala de treinamento de pessoas
+# Sala-De-Treinamento
+Treinamento para uma equipe de desenvolvedores de software
