@@ -5,20 +5,44 @@ import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 public class Pessoa {
-
-	public static void main(String[] args) {
-		//classe para atribuir a pessoa;
+	
+	
+	//Classe para atribuir valor a pessoa;
+	
+		
+		private int id;
+		private String nome;
+		private String sobreNome;
 		
 		
-		Scanner idPos =  new Scanner(System.in);
+		//gets and setters...
+		
+		public int getId() {
+			return id;
+	}
+		
+		public void setId(int id) {
+			this.id = id;
+	}
+		
+		public String getNome() {
+			return nome;
+	}
+		
+		public void setNome(String nome) {
+			this.nome = nome;
+	}
+		
+		public String getSobreNome() {
+			return sobreNome;
+	}
+		
+		public void setSobreNome(String sobreNome) {
+			this.sobreNome = sobreNome;
+	}
 		
 		
-		String id;
-		String nome = JOptionPane.showInputDialog("Digite o Nome do aluno: " );
-		
-		id = idPos.nextLine();
-		
-		String sobreNome = JOptionPane.showInputDialog("Digite o sobrenome do aluno: ");
+	
 		
 		
 		
@@ -27,4 +51,4 @@ public class Pessoa {
 
 	}
 
-}
+
