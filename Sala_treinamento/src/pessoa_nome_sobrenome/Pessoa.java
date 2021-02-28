@@ -13,7 +13,7 @@ public class Pessoa {
 		
 		protected static int id;
 		protected static String nome;
-		private String sobreNome;
+		private String sobreNomes;
 		
 		
 		public class Vetor {

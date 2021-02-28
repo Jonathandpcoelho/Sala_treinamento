@@ -6,14 +6,19 @@ import java.sql.SQLException;
 
 public class conexao {
 	
+	
+	//conector com o Banco de dados mysql.
+	
 	public static Connection Faz_conexao() 	throws SQLException{
 		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			
-			return DriverManager.getConnection("jdbc:mysql://localhost/db_senhas","root","Coelhno@442266");
+			return DriverManager.getConnection("jdbc:mysql://localhost/db_senhas", "root","Coelhno@442266");
 			
 		}catch (ClassNotFoundException e ) {
+			
+			
 			
 			throw new SQLException(e.getException());
 			
