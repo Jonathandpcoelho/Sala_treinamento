@@ -21,8 +21,12 @@ import java.sql.ResultSet;
 import javax.swing.JTextField;
 import javax.swing.JButton;
 
-public class Consulta extends JFrame import {
+public class Consulta extends JFrame  {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JTextField textField;
 
@@ -64,8 +68,11 @@ public class Consulta extends JFrame import {
 		btnNewButton.setBounds(357, 106, 85, 21);
 		contentPane.add(btnNewButton);
 		
-		
 	}
+
+		
+		
+	
 
 		
 		public void actionPerformed(ActionEvent e) {

@@ -16,8 +16,6 @@ public class Pessoa {
 		private String sobreNome;
 		
 		
-		//gets and setters...
-		
 		public class Vetor {
 			// array para aluno maximo 25;
 			
